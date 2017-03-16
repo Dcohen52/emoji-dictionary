@@ -77,6 +77,10 @@
                             <constraint firstItem="FsS-wu-5jG" firstAttribute="top" secondItem="R9f-Es-2lA" secondAttribute="bottom" constant="40" id="wUV-yU-RdQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="ypW-LR-cw6" id="1PS-ft-alm"/>
+                        <outlet property="eLabel" destination="FsS-wu-5jG" id="u4s-Sg-GqT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FqL-No-sip" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
